@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date > date.txt
+date > ~/nodeProject/date.txt
 
 git -C ~/nodeProject/ add .
 git -C ~/nodeProject/ commit -m "Updating log file"
