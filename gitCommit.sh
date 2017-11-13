@@ -2,6 +2,6 @@
 
 date > date.txt
 
-git add .
-git commit -m "Updating log file"
-git push
+git -C ~/nodeProject/ add .
+git -C ~/nodeProject/ commit -m "Updating log file"
+git -C ~/nodeProject/ push
