@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    h1= "You can search Tweet Text in this field"
+    form#formSearchUser(name="search",method="post",action="/search")
+        input#inputUserName(type="text", placeholder="Enter Search Tweet", name="username")
+        
+        br
+        button#btnSubmit(type="submit") Hit Me!!
+    br
+    br        
+    br        
+    a(href="../")= "Home Page"

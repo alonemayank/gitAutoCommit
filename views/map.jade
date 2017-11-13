@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEEwMYh6c9WcS8xZZsEYPtnEhl_p0wbZQ")
+	each user, i in co
+		br
+		a(href="#" onclick="initialize("+co[0].latitude+","+co[0].longitude+")") Click Here to Show Map
+		div(id="map")
+			p="Latitude: "+co[0].latitude+" Longitude: "+co[0].longitude
