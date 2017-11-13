@@ -7,7 +7,7 @@ This application search tweets from the mongodb database and display results. Yo
 
 You can see that index route is actually handling get and post requests. here is a code snippet:
 
-'''
+```sh
 router.post('/search', function(req, res) {
 
     // Set our internal DB variable
@@ -36,7 +36,7 @@ router.post('/search', function(req, res) {
         
     });
 });
-'''
+```
 
 ## Motivation
 
