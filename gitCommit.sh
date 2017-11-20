@@ -11,4 +11,5 @@ do
 	git -C ~/nodeProject/ commit -m "Updating log file"
 	git -C ~/nodeProject/ push
 	sleep $[ ( $RANDOM % 20 )  + 1 ]m
+	I=`expr $I + 1`
 done
