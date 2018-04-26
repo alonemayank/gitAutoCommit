@@ -3,3 +3,5 @@ Random Number 3
 [master b25bda2] Updating log file
  2 files changed, 3 insertions(+), 22 deletions(-)
  rewrite gitCommit.log (99%)
+[master 4104b00] Updating log file
+ 2 files changed, 4 insertions(+), 1 deletion(-)
