@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # nodeProject
 ## Synopsis
 
@@ -56,3 +57,7 @@ No contributes as of now. You are free to contact me if you like this project.
 ## License
 
 MIT
+=======
+# gitAutoCommit
+GitHub auto commit script
+>>>>>>> 03266e43355b0fdfa857407312cc454b5f87ced0

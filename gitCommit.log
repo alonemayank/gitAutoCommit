@@ -5,3 +5,5 @@ Random Number 2
  rewrite gitCommit.log (99%)
 [master 7d3acc3] Updating log file
  2 files changed, 4 insertions(+), 1 deletion(-)
+[master 9f72109] Updating log file
+ 2 files changed, 3 insertions(+), 1 deletion(-)
